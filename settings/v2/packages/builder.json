@@ -1,3 +1,12 @@
 {
-  "__version__": "1.3.9"
+  "__version__": "1.3.9",
+  "builder": {
+    "web": {
+      "template": "default",
+      "polyfills": true,
+      "minify": true,
+      "md5Cache": true,
+      "sourceMaps": false
+    }
+  }
 }
